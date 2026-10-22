@@ -3,10 +3,10 @@
     <title>login form</title>
 </head>
 <style>
-    
+
 *{
     font-family: 'Poppins',sans-serif;
-   
+
 }
  body{
     display: flex;
@@ -14,7 +14,8 @@
     justify-content: center;
     margin: 0;
     min-height: 100vh;
-    background-image: url("keegan-houser--Q_t4SCN8c4-unsplash.jpg");
+    /* Updated background-image to use the Pexels photo URL */
+    background-image: url("https://images.pexels.com/photos/11396175/pexels-photo-11396175.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +33,7 @@
     backdrop-filter: blur(2px);
     border-radius: 20px;
     padding: 10px;
-    
+
  } 
  .forms:hover{
    box-shadow: 0 0 20px 5px rgb(163, 202, 211);
@@ -76,11 +77,11 @@
 
  input::placeholder{
     color: rgb(232, 225, 225);
-   
+
  }
 
- 
- 
+
+
 .sub{
     margin:0;
    font-style: normal;
@@ -98,7 +99,7 @@
     margin-left: 110px;
 }
 
- 
+
 .sub:hover{
     box-shadow: 0 0 0 2px rgb(255, 255, 255);
     transform: translatez(10px 10px);
@@ -126,11 +127,11 @@
         <div class="forms">
         <h2>Login</h2>
             <div class="name">
-    
+
                 <input type="text" placeholder="Username">
             </div>
            <div class="name">
-       
+
                 <input type="password" placeholder="Password">
           </div>
           <div class="box">
@@ -138,7 +139,7 @@
     <a href="#">Forgot Password?</a>
           </div>
     <button class="sub" type="submit"><h3>login</h3></button>
-         
+
     </div>
     </form>
 </body>
